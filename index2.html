@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio Player</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
 </head>
 <body style="display: flex;flex-direction: column;">
     <audio id ="audio" src="mySong.mp3" controls>
@@ -18,18 +17,11 @@
         <div class="canvas-container" id="container">
             <canvas id="canvas" height="450" width="1307" style="border :1px solid green;margin:0px;"></canvas>
         </div>
-        <!-- <canvas id="canvas" height="300" width="780" style="position :absolute;border :1px solid red;margin:0px;"></canvas> -->
-        <!-- <div class="controls">
-            <button class="play-pause"><span class="material-icons">
-                play_arrow
-                </span>
+        <div class="music-container">
+            <button id="play" class="action-btn action-btn-big">
+                <i class="fas fa-play" style="font-size:24px;color: turquoise;"></i>
             </button>
-            <input type="range" class="seekbar"></input>
-            <span class="material-icons white">
-                volume_down
-            </span>
-            <input type="range" class="volume"></input>
-        </div> -->
+        </div>
     </div>
     
     <script src="./scriptDuplicate.js">
