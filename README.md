@@ -1,6 +1,6 @@
 # SalesKen
 <p align="center">
-  <img src="https://i.imgur.com/CK9SuSO.png" alt="Audio Player" width="226">
+  <img src="https://i.imgur.com/CK9SuSO.png" alt="Audio Player" width="226px" height="200px">
 </p>
 
 <p align="center">Audio Player App. Where user can play, pause and move song to any playing time. User sees music columns and current postion of audio</p>
@@ -30,13 +30,11 @@
 
 ## Snapshots
 - Audio Player
-
-- Audio Playing
 <p align="center">
   <img src="https://i.imgur.com/DwQg06j.png" alt="Audio Playinh">
 </p>
 
-
+- Audio Playing
 <p align="center">
   <img src="https://i.imgur.com/VLNddrV.png" alt="Audio Pause">
 </p>
