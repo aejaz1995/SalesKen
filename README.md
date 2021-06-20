@@ -1,6 +1,7 @@
 # SalesKen
+##Audio Player
 <p align="center">
-  <img src="https://i.imgur.com/CK9SuSO.png" alt="Audio Player" width="226px" height="200px">
+  <img src="https://i.imgur.com/CK9SuSO.png" alt="Audio Player" width="426px" height="400px">
 </p>
 
 <p align="center">Audio Player App. Where user can play, pause and move song to any playing time. User sees music columns and current postion of audio</p>
