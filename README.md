@@ -45,7 +45,7 @@
 
 
 <p align="center">
-  <img src="https://imgur.com/VLNddrV" alt="Audio Pause">
+  <img src="https://i.imgur.com/VLNddrV.png" alt="Audio Pause">
 </p>
 
 - Character Detail Page
