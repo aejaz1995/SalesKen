@@ -9,21 +9,22 @@ body,html{
 }
 
 .canvas-container{
-    /* border:3px solid green; */
     width:fit-content;
 }
-.music-container{
-    /* border:1px solid red; */
+.music-btn-container{
     display:flex;
     justify-content:center;
     margin-top: 100px;
 
 }
 
-.music-container button{
+.music-btn-container button{
     border:1px solid #b7d2dc;
     background-color:transparent;
     width:70px;
     height:50px;
     border-radius: 30px;
+}
+canvas{
+    display: flex;
 }

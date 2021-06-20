@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <header name="Access-Control-Allow-Origin" value="*"></header>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body style="display: flex; flex-direction: column;">
+    <audio id="audio" src="mySong.mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <div class="audio-player">
+      <div class="canvas-container" id="canvas-container">
+        <canvas id="canvas" height="450" width="1307"></canvas>
+      </div>
+      <div class="music-btn-container">
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play" style="font-size: 24px; color: turquoise;"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
