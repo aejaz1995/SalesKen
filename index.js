@@ -179,7 +179,9 @@ ctx.roundRect(1050, 20, 200, 20, 4);
 ctx.fillStyle = "#009900";
 ctx.fill();
 ctx.line(1070, 40, 1070, 250, 2, "#009900");
+ctx.line(1240, 40, 1240, 250, 2, "#009900");
 ctx.circle(1070, 250, 5, 0, 2 * Math.PI, "#009900");
+ctx.circle(1240, 250, 5, 0, 2 * Math.PI, "#009900");
 ctx.textInsideRect("Rapport Building - Energy", 1070, 35, "white");
 
 // fourth
