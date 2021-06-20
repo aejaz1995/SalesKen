@@ -54,6 +54,11 @@ function songProgress(e) {
   let percent = Math.floor((currentTime / duration) * 100);
   ctx.fillRect(percent * 13, 250, 7, col[percent] * -1);
   ctx.fillRect(percent * 13, 250, 7, col[percent] * 1);
+
+    if(audioElement.currentTime == audioElement.duration)
+  {
+    playBtn.querySelector("i.fas").classList.add("fa-play");
+  }
 }
 audioElement.addEventListener("timeupdate", songProgress);
 
@@ -82,6 +87,8 @@ playBtn.addEventListener("click", () => {
     playSong();
   }
 });
+
+
 
 // square prototype
 CanvasRenderingContext2D.prototype.roundRect = function (
